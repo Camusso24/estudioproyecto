@@ -68,6 +68,9 @@ $color-tercero: beige;
         margin-left: 20px;
         box-shadow: 3px 3px 3px 3px $color-secundario;
     }
+    img:hover{
+        transform:scale(1.7)
+    }
     p{
         font-size: 1rem;
         color:$color-secundario;
