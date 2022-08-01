@@ -1,0 +1,643 @@
+.practica h1 {
+  font-size: 2.4rem;
+  height: 50vh;
+  background-image: url(../img/practica.jpg);
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  background-position: center;
+  text-align: center;
+  padding-top: 120px;
+  color: bisque;
+  font-family: "Dosis", sans-serif;
+}
+.practica h2 {
+  font-size: 2rem;
+  color: #333333;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding-left: 70px;
+  margin-top: 50px;
+}
+.practica ul li {
+  margin-left: 70px;
+  line-height: 2.4;
+  color: #808080;
+}
+
+.fondo {
+  background-image: url(../img/contacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100rem;
+  margin-bottom: 150px;
+  font-size: 0;
+  height: 50vh;
+}
+.fondo h1 {
+  padding-top: 140px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: antiquewhite;
+  font-size: 4rem;
+}
+
+.datos h2 {
+  color: #333333;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+}
+.datos ul li {
+  color: #808080;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin-left: 163px;
+  line-height: 2;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.label {
+  color: #333333;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+.form-control {
+  height: 50px;
+  max-width: 640px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.contacto1 {
+  font-size: 1.6rem;
+  color: #333333;
+  padding-left: 47px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+.contacto2 {
+  font-size: 0.9rem;
+  color: #808080;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  margin-left: 350px;
+}
+
+.fotos {
+  height: 570px;
+}
+
+.descripcionn h1 {
+  font-size: 2.1rem;
+  font-family: "Dosis", sans-serif;
+  color: #333333;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.descripcionn h2 {
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+  color: #333333;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.descripcionn p {
+  font-size: 1rem;
+  color: #808080;
+  text-align: justify;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.conntenido h3 {
+  font-size: 2rem;
+  color: #333333;
+  font-family: "Dosis", sans-serif;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.conntenido h4 {
+  font-size: 1.4rem;
+  color: #333333;
+  font-family: "Dosis", sans-serif;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  box-shadow: 3px 3px 3px 3px #808080;
+}
+.conntenido p {
+  font-size: 1rem;
+  color: #808080;
+  font-family: "Dosis", sans-serif;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.recursoss {
+  background-image: url(../img/recursos.webp);
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  height: 70vh;
+}
+.recursoss h5 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  padding-top: 70px;
+}
+.recursoss h6 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.recursoss p {
+  color: beige;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.fott {
+  background-color: #272525;
+  padding: 50px 40px 50px 40px;
+  margin-top: 200px;
+}
+
+.tituloo {
+  color: antiquewhite;
+  font-size: 1.6rem;
+  padding-left: 100px;
+}
+
+.direccionn, .tell {
+  color: #808080;
+  font-size: 1rem;
+  padding-left: 100px;
+}
+
+.copp {
+  font-size: 1.1rem;
+  height: 40px;
+  background-color: beige;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.empresa {
+  background-image: url(../img/institucion.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100rem;
+  height: 60vh;
+}
+.empresa h1 {
+  font-size: 4rem;
+  color: "Dosis", sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.objetivos h2 {
+  color: #333333;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2rem;
+}
+.objetivos p {
+  color: #808080;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  line-height: 2;
+  margin-top: 50px;
+}
+
+.objetivos2 p {
+  color: #808080;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin-left: 50px;
+  text-align: justify;
+  line-height: 2;
+}
+.objetivos2 ul li {
+  color: #808080;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin-left: 50px;
+  text-align: justify;
+  line-height: 2;
+}
+
+span {
+  font-weight: 600;
+}
+
+.titulo1 {
+  font-size: 3.5rem;
+  height: 60vh;
+  background-image: url(../img/miembros.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  color: black;
+  text-align: center;
+  padding-top: 160px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+.profesionales h2 {
+  font-size: 2.3rem;
+  color: #333333;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+.profesionales p {
+  font-size: 1rem;
+  color: #808080;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding-left: 80px;
+}
+
+.card {
+  margin-left: 80px;
+}
+
+@media (max-width: 480px) {
+  .contacto2 {
+    color: #333333;
+    font-size: 0.7em;
+    text-align: center;
+  }
+  .fotos1 {
+    height: 50vh;
+  }
+  .descripcionn h1 {
+    font-size: 1.3rem;
+  }
+  .descripcionn p {
+    font-size: 0.7rem;
+    padding: 1px 7px 1px 7px;
+  }
+  .descripcionn h2 {
+    font-size: 1rem;
+  }
+  .conntenido h3 {
+    font-size: 1.3rem;
+  }
+  .conntenido h4 {
+    font-size: 1rem;
+  }
+  .conntenido p {
+    font-size: 0.8rem;
+  }
+  .recursoss {
+    background-size: 30rem;
+  }
+  .recursoss h5 {
+    font-size: 0.9rem;
+    padding-top: 10px;
+  }
+  .recursoss h6 {
+    padding-top: 10px;
+    font-size: 0.7rem;
+  }
+  .recursoss p {
+    margin-top: 0px;
+    font-size: 0.6rem;
+  }
+  .fott {
+    padding: 30px;
+  }
+  .tituloo {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+  }
+  .direccionn, .tell {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.7rem;
+  }
+  .copp {
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  .empresa {
+    background-size: 30rem;
+  }
+  .objetivos h2 {
+    margin: 20px;
+    font-size: 1.5rem;
+  }
+  .objetivos p {
+    margin: 5px;
+    padding: 1px 7px 1px 7px;
+    font-size: 0.8rem;
+  }
+  .objetivos2 p, ul li {
+    margin: 5px;
+    padding: 1px 7px 1px 7px;
+    font-size: 0.8rem;
+  }
+  .practica h1 {
+    font-size: 1.7rem;
+    background-size: 40rem;
+  }
+  .practica h2 {
+    font-size: 1.1rem;
+    padding: 4px 10px 4px 34px;
+  }
+  .practica ul li {
+    font-size: 0.9rem;
+    margin-left: 40px;
+  }
+  .titulo1 {
+    font-size: 2rem;
+    padding-top: 90px;
+    background-size: 50rem;
+    height: 40vh;
+  }
+  .profesionales h2 {
+    font-size: 1.5rem;
+    padding-left: 40px;
+  }
+  .profesionales p {
+    font-size: 0.8rem;
+    padding-left: 40px;
+  }
+  .fondo {
+    background-size: 30rem;
+    height: 40vh;
+  }
+  .fondo h1 {
+    padding-top: 120px;
+    font-size: 2rem;
+  }
+  .datos h2 {
+    font-size: 1.1rem;
+  }
+  .datos ul li {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+  .label {
+    font-size: 1rem;
+  }
+  .form-control {
+    height: 15px;
+    max-width: 40vw;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contacto2 {
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0px;
+  }
+  .fotos {
+    height: 36vh;
+  }
+  .descripcionn h1 {
+    font-size: 1.5rem;
+  }
+  .descripcionn p {
+    font-size: 0.8rem;
+    padding: 1px 12px 1px 12px;
+  }
+  .descripcionn h2 {
+    font-size: 1.3rem;
+  }
+  .conntenido h3 {
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  .conntenido h4 {
+    font-size: 1.2rem;
+  }
+  .conntenido p {
+    font-size: 1rem;
+  }
+  .recursoss {
+    background-size: 50rem;
+  }
+  .recursoss h5 {
+    font-size: 1.3rem;
+    padding-top: 25px;
+  }
+  .recursoss h6 {
+    padding-top: 18px;
+    font-size: 1.1rem;
+  }
+  .recursoss p {
+    margin-top: 25px;
+    font-size: 0.9rem;
+  }
+  .fott {
+    padding: 38px;
+  }
+  .tituloo {
+    padding: 4px;
+    margin: 4px;
+    font-size: 1.4rem;
+  }
+  .direccionn, .tell {
+    padding: 3px;
+    margin: 3px;
+    font-size: 0.9rem;
+  }
+  .copp {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .empresa {
+    background-size: 47rem;
+  }
+  .objetivos h2 {
+    font-size: 1.6rem;
+    margin: 30px;
+  }
+  .objetivos p {
+    padding: 1px 18px 1px 18px;
+    margin: 5px;
+  }
+  .objetivos2 p, ul li {
+    padding: 1px 18px 1px 18px;
+    margin: 5px;
+  }
+  .practica h1 {
+    font-size: 2.5rem;
+    background-size: 70rem;
+  }
+  .practica h2 {
+    font-size: 1.7rem;
+  }
+  .titulo1 {
+    font-size: 2.5rem;
+    background-size: 50rem;
+  }
+  .profesionales h2 {
+    font-size: 1.9rem;
+  }
+  .profesionales p {
+    font-size: 1rem;
+  }
+  .fondo {
+    background-size: 50rem;
+  }
+  .fondo h1 {
+    font-size: 2.6rem;
+  }
+  .datos h2 {
+    font-size: 1.5rem;
+  }
+  .datos ul li {
+    font-size: 0.9rem;
+    padding: 0px;
+    margin-left: 40px;
+  }
+  .label {
+    font-size: 1.2rem;
+  }
+  .form-control {
+    height: 40px;
+    max-width: 44vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contacto2 {
+    padding: 1px 10px 1px 10px;
+    font-size: 0.8rem;
+  }
+  .fotos {
+    height: 70vh;
+  }
+  .descripcionn h1 {
+    font-size: 1.7rem;
+  }
+  .descripcionn p {
+    font-size: 1rem;
+    padding: 1px 16px 1px 16px;
+  }
+  .descripcionn h2 {
+    font-size: 1.5rem;
+  }
+  .conntenido h3 {
+    margin-top: 0px;
+    padding: 18px;
+    font-size: 1.6rem;
+  }
+  .contenido h4 {
+    font-size: 1.1rem;
+  }
+  .conntenido p {
+    font-size: 1rem;
+  }
+  .recursoss {
+    background-size: 70rem;
+    margin-bottom: 100px;
+  }
+  .recursoss h5 {
+    font-size: 1.6rem;
+    padding-top: 46px;
+  }
+  .recursoss h6 {
+    padding-top: 27px;
+    font-size: 1.4rem;
+  }
+  .recursoss p {
+    margin-top: 25px;
+    font-size: 1.1rem;
+  }
+  .fott {
+    padding: 38px;
+  }
+  .tituloo {
+    padding: 6px;
+    margin: 6px;
+    font-size: 1.3rem;
+  }
+  .direccionn, .tell {
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.1rem;
+  }
+  .copp {
+    padding: 8px;
+    font-size: 1.1rem;
+  }
+  .empresa {
+    background-size: 70rem;
+    height: 80vh;
+  }
+  .empresa h1 {
+    font-size: 5rem;
+  }
+  .objetivos h2 {
+    font-size: 2.4rem;
+  }
+  .objetivos p {
+    font-size: 1.1rem;
+    margin: 10px;
+    padding: 1px 18px 1px 18px;
+  }
+  .objetivos2 p {
+    font-size: 1.1rem;
+    margin: 10px;
+    padding: 1px 18px 1px 18px;
+  }
+  .objetivos2 ul li {
+    font-size: 1.1rem;
+    margin: 10px;
+    padding: 1px 18px 1px 18px;
+  }
+  .practica h1 {
+    font-size: 3.3rem;
+    background-size: 70rem;
+  }
+  .titulo1 {
+    font-size: 3rem;
+    background-size: 70rem;
+  }
+  .profesionales h2 {
+    font-size: 2.3rem;
+  }
+  .profesionales p {
+    font-size: 1.2rem;
+  }
+  .fondo {
+    background-size: 70rem;
+  }
+  .fondo h1 {
+    font-size: 3rem;
+  }
+  .datos h2 {
+    font-size: 2rem;
+  }
+  .datos ul li {
+    font-size: 1.1rem;
+    margin-left: 70px;
+  }
+  .label {
+    font-size: 1.3rem;
+  }
+  .form-control {
+    max-width: 43vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

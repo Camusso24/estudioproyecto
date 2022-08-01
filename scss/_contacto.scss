@@ -1,0 +1,52 @@
+$font-principal: "Raleway", Helvetica, Arial, sans-serif;
+$font-secundario: "Open Sans", Helvetica, Arial, sans-serif;
+$font-tercero: 'Dosis', sans-serif;
+$color-principal: #333333;
+$color-secundario: #808080;
+$color-tercero: beige;
+
+@mixin fontsize ($size,$heigth){
+    font-size: $size;
+    height: $heigth;
+}
+.fondo{
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    margin-bottom: 150px; 
+    @include fontsize(0,50vh);
+    h1{
+        padding-top: 140px;
+        font-family: $font-principal;
+        color: antiquewhite;
+        font-size: 4rem;
+    }
+}
+.datos{
+    h2{
+        color: $color-principal;
+        font-family: $font-secundario;
+        font-size: 1.8rem;
+    }
+    ul li{
+        color:$color-secundario;
+        font-family: $font-secundario;
+        margin-left: 163px;
+        line-height: 2;
+        list-style: none;
+        font-size: 1rem;
+    }
+}
+.label{
+    color:$color-principal;
+    font-family: $font-secundario;
+    font-size: 1.2rem;
+}
+.form-control{
+    height: 50px;
+    max-width: 640px;
+}
+.btn{
+    margin-top: 20px;
+}

@@ -1,0 +1,63 @@
+$font-principal: "Raleway", Helvetica, Arial, sans-serif;
+$font-secundario: "Open Sans", Helvetica, Arial, sans-serif;
+$font-tercero: 'Dosis', sans-serif;
+$color-principal: #333333;
+$color-secundario: #808080;
+$color-tercero: beige;
+
+@mixin fontsize ($size,$heigth){
+    font-size: $size;
+    height: $heigth;
+}
+
+.empresa{
+    background-image: url(../img/institucion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100rem;
+    height: 60vh;
+    h1{
+        font-size: 4rem;
+        color:$font-tercero;
+        font-family: $font-principal;
+        text-align: center;
+        padding-top: 170px;
+    }
+}
+.objetivos{
+    h2{
+        color:$color-principal;
+        font-family: $font-principal;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 2rem;
+    }
+    p{
+        color:$color-secundario;
+        font-family: $font-secundario;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+        line-height: 2;
+        margin-top: 50px;
+    }
+}
+.objetivos2{
+    p{
+        color:$color-secundario;
+        font-family: $font-secundario;
+        margin-left: 50px;
+        text-align: justify;
+        line-height: 2;
+    }
+    ul li{
+        color:$color-secundario;
+        font-family: $font-secundario;
+        margin-left: 50px;
+        text-align: justify;
+        line-height: 2; 
+    }
+}
+span{
+    font-weight: 600;
+}

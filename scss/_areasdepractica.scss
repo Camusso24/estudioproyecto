@@ -1,0 +1,36 @@
+$font-principal: "Raleway", Helvetica, Arial, sans-serif;
+$font-secundario: "Open Sans", Helvetica, Arial, sans-serif;
+$font-tercero: 'Dosis', sans-serif;
+$color-principal: #333333;
+$color-secundario: #808080;
+$color-tercero: beige;
+
+@mixin fontsize ($size,$heigth){
+    font-size: $size;
+    height: $heigth;
+}
+.practica{
+    h1{
+    @include fontsize(2.4rem, 50vh);
+    background-image: url(../img/practica.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-position: center;
+    text-align: center;
+    padding-top: 120px;
+    color:bisque;
+    font-family: $font-tercero;
+    }
+    h2{
+        font-size: 2rem;
+        color: $color-principal;
+        font-family: $font-secundario;
+        padding-left: 70px;
+        margin-top: 50px;
+    }
+    ul li{
+        margin-left: 70px;
+        line-height: 2.4;
+        color: $color-secundario;
+    }
+}

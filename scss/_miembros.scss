@@ -1,0 +1,42 @@
+$font-principal: "Raleway", Helvetica, Arial, sans-serif;
+$font-secundario: "Open Sans", Helvetica, Arial, sans-serif;
+$font-tercero: 'Dosis', sans-serif;
+$color-principal: #333333;
+$color-secundario: #808080;
+$color-tercero: beige;
+
+@mixin fontsize ($size,$heigth){
+    font-size: $size;
+    height: $heigth;
+}
+
+.titulo1{
+    @include fontsize(3.5rem,60vh);
+    background-image: url(../img/miembros.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    color:black;
+    text-align: center;
+    padding-top: 160px;
+    font-family:$font-principal;
+}
+.profesionales{
+    h2{
+        font-size: 2.3rem;
+        color:$color-principal;
+        font-family: $font-principal;
+        margin-top: 50px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+    }
+    p{
+        font-size: 1rem;
+        color:$color-secundario;
+        font-family: $font-secundario;
+        padding-left: 80px;
+    }
+}
+.card{
+    margin-left: 80px;
+}

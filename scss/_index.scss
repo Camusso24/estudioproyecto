@@ -1,0 +1,128 @@
+$font-principal: "Raleway", Helvetica, Arial, sans-serif;
+$font-secundario: "Open Sans", Helvetica, Arial, sans-serif;
+$font-tercero: 'Dosis', sans-serif;
+$color-principal: #333333;
+$color-secundario: #808080;
+$color-tercero: beige;
+
+@mixin fontsize ($size,$heigth){
+    font-size: $size;
+    height: $heigth;
+}
+.contacto1{
+    font-size: 1.6rem;
+    color:$color-principal;
+    padding-left: 47px;
+    font-family: $font-principal;
+}
+.contacto2{
+    font-size: 0.9rem;
+    color:$color-secundario;
+    font-family:  $font-principal;
+    margin-left: 350px;
+}
+.fotos{
+    height: 570px;
+}
+.descripcionn{
+    h1{
+        font-size: 2.1rem;
+        font-family: $font-tercero;
+        color:$color-principal;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-family: $font-tercero;
+        color:$color-principal;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    p{
+        font-size: 1rem;
+        color:$color-secundario;
+        text-align: justify;
+        font-family:$font-secundario;
+        line-height: 1.7;
+        padding-left: 100px;
+        padding-right: 100px;
+        }
+    }
+.conntenido{
+    h3{
+        font-size: 2rem;
+        color:$color-principal;
+        font-family: $font-tercero;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    h4{
+        font-size: 1.4rem;
+        color:$color-principal;
+        font-family: $font-tercero;
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        box-shadow: 3px 3px 3px 3px $color-secundario;
+    }
+    p{
+        font-size: 1rem;
+        color:$color-secundario;
+        font-family: $font-tercero;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+.recursoss{
+    background-image: url(../img/recursos.webp);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    height: 70vh;
+    h5{
+        color: white;
+        font-size: 2rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        padding-top: 70px;
+    }
+    h6{
+        color:white;
+        font-size: 1.5rem;
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+    }
+    p{
+        color:$color-tercero;
+        font-size: 1.2rem;
+        line-height: 1.7;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: justify;
+        margin-top: 40px;
+    }
+}
+.fott{
+    background-color: #272525;
+    padding: 50px 40px 50px 40px;
+    margin-top: 200px;
+}
+.tituloo{
+    color:antiquewhite;
+    font-size: 1.6rem;
+    padding-left: 100px;
+}
+.direccionn, .tell{
+    color:$color-secundario;
+    font-size: 1rem;
+    padding-left: 100px;
+}
+.copp{
+    @include fontsize(1.1rem,40px);
+    background-color:$color-tercero;
+    text-align: center;
+    padding-top: 10px;
+}
