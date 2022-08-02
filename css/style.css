@@ -279,7 +279,7 @@ span {
 }
 
 * {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media (max-width: 320px) {
